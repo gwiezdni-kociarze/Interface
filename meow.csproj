@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg" />
+    <None Remove="Arrow.png" />
+    <None Remove="cat.png" />
+    <None Remove="galaxy.png" />
+    <None Remove="Images\cross.png" />
+    <None Remove="Leaderboard.png" />
+    <None Remove="logo.png" />
+    <None Remove="pixel-heart-2779422_1280.png" />
+    <None Remove="Play.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Arrow.png" />
+    <Resource Include="cat.png" />
+    <Resource Include="galaxy.png" />
+    <Resource Include="Images\cross.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg" />
+    <Resource Include="Images\pixel-heart-2779422_1280.png" />
+    <Resource Include="Leaderboard.png" />
+    <Resource Include="logo.png" />
+    <Resource Include="Play.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
