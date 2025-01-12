@@ -13,7 +13,14 @@
     <None Remove="Arrow.png" />
     <None Remove="cat.png" />
     <None Remove="galaxy.png" />
+    <None Remove="Images\Arrow.png" />
+    <None Remove="Images\cat.png" />
     <None Remove="Images\cross.png" />
+    <None Remove="Images\galaxy.png" />
+    <None Remove="Images\Leaderboard.png" />
+    <None Remove="Images\logo.png" />
+    <None Remove="Images\nyancat.png" />
+    <None Remove="Images\Play.png" />
     <None Remove="Leaderboard.png" />
     <None Remove="logo.png" />
     <None Remove="pixel-heart-2779422_1280.png" />
@@ -21,18 +28,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Arrow.png" />
-    <Resource Include="cat.png" />
-    <Resource Include="galaxy.png" />
+    <Resource Include="Images\Arrow.png" />
+    <Resource Include="Images\cat.png" />
     <Resource Include="Images\cross.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Images\360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg" />
+    <Resource Include="Images\galaxy.png" />
+    <Resource Include="Images\Leaderboard.png" />
+    <Resource Include="Images\logo.png" />
+    <Resource Include="Images\nyancat.png" />
     <Resource Include="Images\pixel-heart-2779422_1280.png" />
-    <Resource Include="Leaderboard.png" />
-    <Resource Include="logo.png" />
-    <Resource Include="Play.png" />
+    <Resource Include="Images\Play.png" />
   </ItemGroup>
 
   <ItemGroup>

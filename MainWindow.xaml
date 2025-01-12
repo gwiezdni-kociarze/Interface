@@ -9,7 +9,7 @@
         WindowStyle="None"
         Title="MEOW Invaders" Height="1080" Width="1920"
         Background="Black"
-        Icon="/logo.png">
+        Icon="/Images/logo.png">
     <Window.Resources>
         <Storyboard x:Key="BreathingAnimation" RepeatBehavior="Forever" AutoReverse="True">
             <DoubleAnimation Storyboard.TargetName="LogoLabel"
@@ -53,14 +53,14 @@
                     </EventTrigger>
                 </Label.Triggers>
                 <Label.Background>
-                    <ImageBrush ImageSource="/logo.png"/>
+                    <ImageBrush ImageSource="/Images/logo.png"/>
                 </Label.Background>
             </Label>
         </Grid>
 
         <Grid x:Name="Menu" Visibility="Hidden" Opacity="1.0">
             <Grid.Background>
-                <ImageBrush ImageSource="/galaxy.png"/>
+                <ImageBrush ImageSource="/Images/galaxy.png"/>
             </Grid.Background>
 
             <!-- Elements in the Menu Grid -->
@@ -115,7 +115,7 @@
             <TextBlock Margin="56,0,1345,0" Height="236" VerticalAlignment="Center" MouseLeftButtonUp="PlayTextBlock_MouseLeftButtonUp">
                 <Label Height="244" Width="230">
                     <Label.Background>
-                        <ImageBrush ImageSource="/Play.png"/>
+                        <ImageBrush ImageSource="/Images/Play.png"/>
                     </Label.Background>
                 </Label>
                 <Label Foreground="White" FontSize="120" Content="Play" Height="182" FontFamily="Pixelify Sans" Width="243"></Label>
@@ -128,7 +128,7 @@
                 <Border BorderBrush="White" BorderThickness="1"/>
                 <Border BorderBrush="White" BorderThickness="1" Margin="0,771,1371,-132" CornerRadius="8,8,3,3">
                     <Border.Background>
-                        <ImageBrush ImageSource="/cat.png"/>
+                        <ImageBrush ImageSource="/Images/cat.png"/>
                     </Border.Background>
                 </Border>
                 <Border BorderBrush="White" BorderThickness="1" Margin="622,771,557,-132" CornerRadius="8,8,3,3"/>
@@ -153,7 +153,7 @@
             </Label>
             <Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="130" Width="141" FontFamily="Pixelify Sans" MouseLeftButtonUp="Arrow_MouseLeftButtonUp" Canvas.Left="1643" Canvas.Top="10">
                 <Label.Background>
-                    <ImageBrush ImageSource="/Arrow.png" />
+                    <ImageBrush ImageSource="/Images/Arrow.png" />
                 </Label.Background>
             </Label>
             <Label Content="Label" HorizontalAlignment="Left" Margin="630,122,0,0" VerticalAlignment="Top"/>
